@@ -37,7 +37,15 @@ Rules:
 
 # ---------- Setup ----------
 load_dotenv()
-ai_client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+api_key = os.getenv("GEMINI_API_KEY")
+if not api_key:
+    # On Streamlit Cloud the key lives in "Secrets" instead of a .env file
+    try:
+        import streamlit as st
+        api_key = st.secrets["GEMINI_API_KEY"]
+    except Exception:
+        pass
+ai_client = genai.Client(api_key=api_key)
 db_client = chromadb.PersistentClient(path=DB_FOLDER)
 collection = db_client.get_or_create_collection(COLLECTION_NAME)
 
