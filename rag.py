@@ -1,5 +1,6 @@
 # rag.py - the full RAG pipeline: question -> search -> AI answer with sources
 
+import json
 import os
 import re
 import chromadb
@@ -38,8 +39,29 @@ Rules:
 load_dotenv()
 ai_client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 db_client = chromadb.PersistentClient(path=DB_FOLDER)
-collection = db_client.get_collection(COLLECTION_NAME)
+collection = db_client.get_or_create_collection(COLLECTION_NAME)
 
+
+def build_database_if_empty():
+    """On a fresh server (like Streamlit Cloud) the database doesn't exist yet,
+    so we build it from chunks.json the first time the app starts."""
+    if collection.count() > 0:
+        return
+    with open("chunks.json", encoding="utf-8") as f:
+        chunks = json.load(f)
+    ids, documents, metadatas, seen = [], [], [], set()
+    for chunk in chunks:
+        chunk_id = chunk["id"]
+        while chunk_id in seen:
+            chunk_id += "-dup"
+        seen.add(chunk_id)
+        ids.append(chunk_id)
+        documents.append(chunk["text"])
+        metadatas.append({k: chunk[k] for k in ("subject", "source", "page", "exam", "question_no")})
+    collection.add(ids=ids, documents=documents, metadatas=metadatas)
+
+
+build_database_if_empty()
 
 # ---------- The three steps of RAG ----------
 def retrieve(question):
