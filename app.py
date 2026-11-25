@@ -2,7 +2,8 @@
 
 import re
 import streamlit as st
-from rag import retrieve, build_prompt, generate, collection
+from rag import retrieve, build_prompt, generate, solve, collection
+from patterns import render_patterns
 
 # ---------- Page setup ----------
 st.set_page_config(
@@ -97,6 +98,12 @@ def show_sources(chunks):
             st.divider()
 
 
+def show_code(code):
+    """Show the Python the AI ran to check its math."""
+    with st.expander("🐍 Python used to check the math"):
+        st.code(code, language="python")
+
+
 # ---------- Sidebar ----------
 with st.sidebar:
     st.markdown("## 📚 IOE Saathi")
@@ -142,6 +149,23 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+# ---------- Switch between the two views ----------
+view = st.radio(
+    "View",
+    ["💬 Ask Saathi", "📊 Exam Patterns"],
+    horizontal=True,
+    label_visibility="collapsed",
+)
+if view == "📊 Exam Patterns":
+    render_patterns(st, "dsp")
+    st.stop()  # don't draw the chat below
+
+# ---------- Solve mode switch ----------
+solve_mode = st.toggle(
+    "🧮 Solve mode: step-by-step numerical solutions, checked with Python",
+    help="Try: 'Solve 2081 Bhadra Q2' or paste any numerical problem.",
+)
+
 # ---------- Chat memory ----------
 # Streamlit re-runs this whole file on every click, so we keep the chat in session_state
 if "messages" not in st.session_state:
@@ -172,6 +196,8 @@ AVATARS = {"user": "🧑‍🎓", "assistant": "📚"}
 for message in st.session_state.messages:
     with st.chat_message(message["role"], avatar=AVATARS[message["role"]]):
         st.markdown(message["content"])
+        if message.get("code"):
+            show_code(message["code"])
         if message.get("sources"):
             show_sources(message["sources"])
 
@@ -185,12 +211,20 @@ if question:
         st.markdown(question)
 
     with st.chat_message("assistant", avatar=AVATARS["assistant"]):
-        with st.spinner("Searching 18 years of past papers..."):
-            chunks = retrieve(question)
-            answer = generate(build_prompt(question, chunks))
+        if solve_mode:
+            with st.spinner("Solving step by step and checking the math with Python..."):
+                answer, code, chunks = solve(question)
+            answer += "\n\n*⚠️ AI-generated solution: double-check with your notes or teacher.*"
+        else:
+            with st.spinner("Searching 18 years of past papers..."):
+                chunks = retrieve(question)
+                answer = generate(build_prompt(question, chunks))
+            code = ""
         st.markdown(answer)
+        if code:
+            show_code(code)
         show_sources(chunks)
 
     st.session_state.messages.append(
-        {"role": "assistant", "content": answer, "sources": chunks}
+        {"role": "assistant", "content": answer, "sources": chunks, "code": code}
     )

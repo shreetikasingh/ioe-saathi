@@ -1,0 +1,12 @@
+{
+  "dsp": [
+    "Discrete-Time Signals and Systems",
+    "Z-Transform and System Analysis",
+    "Filter Structure Realization",
+    "FIR Filter Design",
+    "IIR Filter Design",
+    "Discrete Fourier Transform",
+    "Fast Fourier Transform",
+    "Finite Word Length Effects"
+  ]
+}
