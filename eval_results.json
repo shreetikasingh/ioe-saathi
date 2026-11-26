@@ -1,0 +1,133 @@
+{
+  "retrieval": [
+    {
+      "question": "Has the Remez exchange algorithm been asked?",
+      "passed": true
+    },
+    {
+      "question": "How do I draw the butterfly diagram for FFT?",
+      "passed": true
+    },
+    {
+      "question": "Questions on region of convergence of z-transform",
+      "passed": true
+    },
+    {
+      "question": "Difference between FIR and IIR filters",
+      "passed": true
+    },
+    {
+      "question": "Design Butterworth filter using bilinear transformation",
+      "passed": true
+    },
+    {
+      "question": "How to realize a filter using lattice structure?",
+      "passed": true
+    },
+    {
+      "question": "Why do ripples appear near the band edge when we truncate the impulse response?",
+      "passed": false
+    },
+    {
+      "question": "What problems happen because registers have limited bits?",
+      "passed": true
+    },
+    {
+      "question": "Find circular convolution of two sequences",
+      "passed": true
+    },
+    {
+      "question": "Which window functions are used in FIR design?",
+      "passed": true
+    },
+    {
+      "question": "Energy signal vs power signal",
+      "passed": true
+    },
+    {
+      "question": "Converting an analog filter by sampling its impulse response",
+      "passed": true
+    },
+    {
+      "question": "Is the system causal and time invariant?",
+      "passed": true
+    },
+    {
+      "question": "How many multiplications does FFT save compared to DFT?",
+      "passed": true
+    },
+    {
+      "question": "Linear phase FIR filter questions",
+      "passed": true
+    }
+  ],
+  "refusal": [
+    {
+      "question": "What is the capital of Australia?",
+      "passed": true,
+      "answer": "I couldn't find this in the past papers I have. I can help with DSP concepts and past questions."
+    },
+    {
+      "question": "Who won the FIFA World Cup in 2022?",
+      "passed": true,
+      "answer": "I couldn't find this in the past papers I have. I can help with DSP concepts and past questions."
+    },
+    {
+      "question": "Give me a recipe for chicken momo",
+      "passed": true,
+      "answer": "I couldn't find this in the past papers I have. I can help with DSP concepts and past questions."
+    },
+    {
+      "question": "Explain normalization in DBMS",
+      "passed": true,
+      "answer": "I couldn't find this in the past papers I have. I can help with DSP concepts and past questions."
+    }
+  ],
+  "honesty": [
+    {
+      "question": "Has the Remez exchange algorithm been asked?",
+      "citations": 6,
+      "invented": []
+    },
+    {
+      "question": "How do I draw the butterfly diagram for FFT?",
+      "citations": 6,
+      "invented": []
+    },
+    {
+      "question": "Questions on region of convergence of z-transform",
+      "citations": 6,
+      "invented": []
+    },
+    {
+      "question": "Difference between FIR and IIR filters",
+      "citations": 3,
+      "invented": []
+    },
+    {
+      "question": "Design Butterworth filter using bilinear transformation",
+      "citations": 6,
+      "invented": []
+    },
+    {
+      "question": "How to realize a filter using lattice structure?",
+      "citations": 5,
+      "invented": []
+    },
+    {
+      "question": "Why do ripples appear near the band edge when we truncate the impulse response?",
+      "citations": 1,
+      "invented": []
+    },
+    {
+      "question": "What problems happen because registers have limited bits?",
+      "citations": 4,
+      "invented": []
+    }
+  ],
+  "summary": {
+    "retrieval_accuracy": "14/15 (93%)",
+    "refusal_accuracy": "4/4 (100%)",
+    "citation_honesty": "37/37 citations real (100%)"
+  }
+}
