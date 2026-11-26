@@ -1,0 +1,1212 @@
+[
+  {
+    "subject": "dsp",
+    "times_asked": 15,
+    "topic": "Discrete-Time Signals and Systems",
+    "question": "Find the output of a LTI system having input $x[n] = (\\frac{1}{6})^n u[n]$ and impulse response $h[n] = (\\frac{1}{3})^n u[n - 3]$. $[5]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p01-q2",
+        "exam": "2083 Bhadra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p02-q2",
+        "exam": "2082 Bhadra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p04-q2",
+        "exam": "2081 Bhadra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p05-q2",
+        "exam": "2081 Baishakh",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p08-q2",
+        "exam": "2079 Bhadra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p10-q2",
+        "exam": "2079 Baishakh",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p09-q2",
+        "exam": "2078 Bhadra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p11-q2",
+        "exam": "2078 Bhadra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p12-q3",
+        "exam": "2076 Chaitra",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p14-q2",
+        "exam": "2075 Chaitra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p15-q2",
+        "exam": "2075 Ashwin",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p17-q2",
+        "exam": "2074 Ashwin",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p20-q2",
+        "exam": "2072 Kartik",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p19-q2",
+        "exam": "2072 Chaitra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p22-q2",
+        "exam": "2071 Chaitra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p27-q2",
+        "exam": "2069 Chaitra",
+        "question_no": 2
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 13,
+    "topic": "Filter Structure Realization",
+    "question": "Compute Lattice ladder coefficients and draw lattice structure for the given system $[6]$\n   $$H(z) = \\frac{2 - 0.7z^{-1} + 0.5z^{-2}}{1 - 0.3z^{-1} + 0.25z^{-2}}$$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p02-q6",
+        "exam": "2082 Bhadra",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p04-q5",
+        "exam": "2081 Bhadra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p06-q5",
+        "exam": "2080 Bhadra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p07-q5",
+        "exam": "2080 Baishakh",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p10-q5",
+        "exam": "2079 Baishakh",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p12-q6",
+        "exam": "2076 Chaitra",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p13-q5",
+        "exam": "2076 Ashwin",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p14-q4",
+        "exam": "2075 Chaitra",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p20-q7",
+        "exam": "2072 Kartik",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p19-q7",
+        "exam": "2072 Chaitra",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p23-q7",
+        "exam": "2070 Chaitra",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p26-q5",
+        "exam": "2070 Ashad",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p27-q6",
+        "exam": "2069 Chaitra",
+        "question_no": 6
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 12,
+    "topic": "FIR Filter Design",
+    "question": "What is an optimal filter? Explain Remez exchange algorithm for FIR filter design with the help of a flow chart. $[1+4]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p02-q8",
+        "exam": "2082 Bhadra",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p04-q7",
+        "exam": "2081 Bhadra",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p08-q8",
+        "exam": "2079 Bhadra",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p10-q8",
+        "exam": "2079 Baishakh",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p09-q8",
+        "exam": "2078 Bhadra",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p11-q8",
+        "exam": "2078 Bhadra",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p12-q9",
+        "exam": "2076 Chaitra",
+        "question_no": 9
+      },
+      {
+        "id": "dsp-DSAP-p14-q5",
+        "exam": "2075 Chaitra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p17-q7",
+        "exam": "2074 Ashwin",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p19-q9",
+        "exam": "2072 Chaitra",
+        "question_no": 9
+      },
+      {
+        "id": "dsp-DSAP-p22-q8",
+        "exam": "2071 Chaitra",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p23-q9",
+        "exam": "2070 Chaitra",
+        "question_no": 9
+      },
+      {
+        "id": "dsp-DSAP-p27-q8",
+        "exam": "2069 Chaitra",
+        "question_no": 8
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 10,
+    "topic": "Z-Transform and System Analysis",
+    "question": "Plot the pole - zero in z plane and draw magnitude response (not to the scale) of the system described by difference equation\n$$y[n] - 0.4\\,y[n-1] + 0.25\\,y[n-2] = x[n] - 0.4\\,x[n-1]$$ $[3+7]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p04-q4",
+        "exam": "2081 Bhadra",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p05-q4",
+        "exam": "2081 Baishakh",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p06-q4",
+        "exam": "2080 Bhadra",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p08-q4",
+        "exam": "2079 Bhadra",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p10-q4",
+        "exam": "2079 Baishakh",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p09-q5",
+        "exam": "2078 Bhadra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p11-q5",
+        "exam": "2078 Bhadra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p14-q3",
+        "exam": "2075 Chaitra",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p17-q4",
+        "exam": "2074 Ashwin",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p19-q5",
+        "exam": "2072 Chaitra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p27-q4",
+        "exam": "2069 Chaitra",
+        "question_no": 4
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 9,
+    "topic": "Z-Transform and System Analysis",
+    "question": "Determine the inverse z-transform of $X(z) = \\frac{1}{1 - 4.5z^{-1} + 3.5^{-2}}$: $[3+3]$\n   \n   a) if ROC: $|z| > 3.5$ and (b) if ROC: $|z| < 1.0$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p01-q3",
+        "exam": "2083 Bhadra",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p04-q3",
+        "exam": "2081 Bhadra",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p05-q3",
+        "exam": "2081 Baishakh",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p07-q3",
+        "exam": "2080 Baishakh",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p09-q3",
+        "exam": "2078 Bhadra",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p11-q3",
+        "exam": "2078 Bhadra",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p12-q4",
+        "exam": "2076 Chaitra",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p16-q3",
+        "exam": "2074 Chaitra",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p18-q3",
+        "exam": "2073 Shrawan",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p22-q3",
+        "exam": "2071 Chaitra",
+        "question_no": 3
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 9,
+    "topic": "IIR Filter Design",
+    "question": "Design a digital low pass IIR filter using Bilinear transformation to meet following specifications: $[12+3]$\n$$0.9 \\leq |H(e^{jw})| \\leq 1 \\quad \\text{for } 0 \\leq |w| \\leq \\frac{\\pi}{2}$$\n$$|H(e^{jw})| \\leq 0.2 \\quad \\text{for } \\frac{3\\pi}{4} \\leq |w| \\leq \\pi$$\nUse Butterworth approximation for design with sampling frequency of $1\\text{Hz}$. Compare Impulse Invariance Method and Bilinear Transformation method.",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p04-q8",
+        "exam": "2081 Bhadra",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p07-q9",
+        "exam": "2080 Baishakh",
+        "question_no": 9
+      },
+      {
+        "id": "dsp-DSAP-p10-q9",
+        "exam": "2079 Baishakh",
+        "question_no": 9
+      },
+      {
+        "id": "dsp-DSAP-p12-q10",
+        "exam": "2076 Chaitra",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p15-q6",
+        "exam": "2075 Ashwin",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p16-q7",
+        "exam": "2074 Chaitra",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p20-q9",
+        "exam": "2072 Kartik",
+        "question_no": 9
+      },
+      {
+        "id": "dsp-DSAP-p21-q8",
+        "exam": "2071 Shrawan",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p25-q8",
+        "exam": "2068 Bhadra",
+        "question_no": 8
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 8,
+    "topic": "FIR Filter Design",
+    "question": "Design a FIR filter using Kaiser window that meets the following specification: $[7]$\n   $$\\begin{array}{ll}\n   0.9 < |H(e^{j\\omega})| < 1.01 & \\text{for } |\\omega| < 0.3\\pi \\\\\n   |H(e^{j\\omega})| < 0.01 & \\text{for } 0.5\\pi < |\\omega| < \\pi\n   \\end{array}$$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p01-q7",
+        "exam": "2083 Bhadra",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p04-q6",
+        "exam": "2081 Bhadra",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p05-q6",
+        "exam": "2081 Baishakh",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p06-q7",
+        "exam": "2080 Bhadra",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p09-q7",
+        "exam": "2078 Bhadra",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p11-q7",
+        "exam": "2078 Bhadra",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p12-q8",
+        "exam": "2076 Chaitra",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p15-q7",
+        "exam": "2075 Ashwin",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p16-q8",
+        "exam": "2074 Chaitra",
+        "question_no": 8
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 8,
+    "topic": "Fast Fourier Transform",
+    "question": "How fast is FFT? Find 8-point DFT of sequence $x[n] = \\{1, 1, 0, 0, 1, 1, 2\\}$ using Decimation in Time Fast Fourier Transform(DITFFT) algorithm. $[2+6]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p07-q11",
+        "exam": "2080 Baishakh",
+        "question_no": 11
+      },
+      {
+        "id": "dsp-DSAP-p10-q10",
+        "exam": "2079 Baishakh",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p12-q11",
+        "exam": "2076 Chaitra",
+        "question_no": 11
+      },
+      {
+        "id": "dsp-DSAP-p13-q8",
+        "exam": "2076 Ashwin",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p17-q9",
+        "exam": "2074 Ashwin",
+        "question_no": 9
+      },
+      {
+        "id": "dsp-DSAP-p18-q10",
+        "exam": "2073 Shrawan",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p20-q10",
+        "exam": "2072 Kartik",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p27-q10",
+        "exam": "2069 Chaitra",
+        "question_no": 10
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 7,
+    "topic": "Filter Structure Realization",
+    "question": "Obtain the direct form I and direct form II realization of the following system: $[2+2]$\n   $$y[n] - 0.75y[n-1] - 0.25y[n-2] = x[n] + 0.5x[n-1]$$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p02-q5",
+        "exam": "2082 Bhadra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p08-q5",
+        "exam": "2079 Bhadra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p10-q6",
+        "exam": "2079 Baishakh",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p16-q5",
+        "exam": "2074 Chaitra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p20-q6",
+        "exam": "2072 Kartik",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p19-q6",
+        "exam": "2072 Chaitra",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p27-q5",
+        "exam": "2069 Chaitra",
+        "question_no": 5
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 5,
+    "topic": "IIR Filter Design",
+    "question": "Design a low pass discrete time Butterworth filter using bilinear transformation having following specifications: $[11+4]$\nPassband frequency ($W_p$) = $0.25\\pi$ radians\nStopband frequency ($W_s$) = $0.55\\pi$ radians\nPassband ripple ($\\delta_p$) = $0.11$\nStopband ripple ($\\delta_s$) = $0.21$. Consider sampling frequency of $0.5$ Hz.\n\nAlso, covert the obtained digital low pass filter to high pass filter with new pass band frequency, $W'_p = 0.45\\pi$ using digital domain transformation.",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p08-q9",
+        "exam": "2079 Bhadra",
+        "question_no": 9
+      },
+      {
+        "id": "dsp-DSAP-p13-q7",
+        "exam": "2076 Ashwin",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p17-q8",
+        "exam": "2074 Ashwin",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p22-q9",
+        "exam": "2071 Chaitra",
+        "question_no": 9
+      },
+      {
+        "id": "dsp-DSAP-p27-q9",
+        "exam": "2069 Chaitra",
+        "question_no": 9
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 4,
+    "topic": "Discrete-Time Signals and Systems",
+    "question": "Define Energy and Power signal with examples. Determine whether the signal $x[n] = \\cos\\left[\\frac{2\\pi n}{5}\\right] + \\sin\\left[\\frac{\\pi n}{3}\\right]$ is periodic or non-periodic and if it is periodic, find its fundamental period. $[2+3]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p01-q1",
+        "exam": "2083 Bhadra",
+        "question_no": 1
+      },
+      {
+        "id": "dsp-DSAP-p04-q1",
+        "exam": "2081 Bhadra",
+        "question_no": 1
+      },
+      {
+        "id": "dsp-DSAP-p08-q1",
+        "exam": "2079 Bhadra",
+        "question_no": 1
+      },
+      {
+        "id": "dsp-DSAP-p09-q1",
+        "exam": "2078 Bhadra",
+        "question_no": 1
+      },
+      {
+        "id": "dsp-DSAP-p11-q1",
+        "exam": "2078 Bhadra",
+        "question_no": 1
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 4,
+    "topic": "Z-Transform and System Analysis",
+    "question": "Draw the poles and zeros in the $z$-plane for the system with poles at $0.45 \\pm j1.6$ and zeros at $0.58 \\pm j2.06$. Also plot the magnitude response (not in scale) of the system. $[2+8]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p02-q4",
+        "exam": "2082 Bhadra",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p03-q4",
+        "exam": "2082 Baishakh",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p12-q5",
+        "exam": "2076 Chaitra",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p15-q4",
+        "exam": "2075 Ashwin",
+        "question_no": 4
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 4,
+    "topic": "Discrete-Time Signals and Systems",
+    "question": "Find the output of an LTI system having impulse response $h[n] = \\left(\\frac{1}{2}\\right)^n u[n]$ excited by an input $x[n] = 5e^{j\\frac{\\pi n}{3}}$. $[5]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p03-q2",
+        "exam": "2082 Baishakh",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p07-q2",
+        "exam": "2080 Baishakh",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p20-q4",
+        "exam": "2072 Kartik",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p23-q4",
+        "exam": "2070 Chaitra",
+        "question_no": 4
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 4,
+    "topic": "Discrete Fourier Transform",
+    "question": "Find the circular convolution of the sequences $x_1[n] = \\{1, 1, -1, -1, 2\\}$ and $x_2[n] = \\{1, -1, -2\\}$. $[6]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p03-q10",
+        "exam": "2082 Baishakh",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p06-q10",
+        "exam": "2080 Bhadra",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p29-q12",
+        "exam": "2080 Bhadra",
+        "question_no": 12
+      },
+      {
+        "id": "dsp-DSAP-p10-q11",
+        "exam": "2079 Baishakh",
+        "question_no": 11
+      },
+      {
+        "id": "dsp-DSAP-p30-q5",
+        "exam": "2066 Magh",
+        "question_no": 5
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 4,
+    "topic": "Discrete Fourier Transform",
+    "question": "Find $x_3[n]$ if DFT of $x_3[n]$ is given by $X_3(k) = X_1(k) * X_2(k)$ where $X_1(k)$ and $X_2(k)$ are 4-point DFT of $x_1[n]=\\{1, 2, -2\\}$ and $x_2[n]=\\{1, 2, 3, -1\\}$ respectively. $[5]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p12-q12",
+        "exam": "2076 Chaitra",
+        "question_no": 12
+      },
+      {
+        "id": "dsp-DSAP-p18-q11",
+        "exam": "2073 Shrawan",
+        "question_no": 11
+      },
+      {
+        "id": "dsp-DSAP-p20-q11",
+        "exam": "2072 Kartik",
+        "question_no": 11
+      },
+      {
+        "id": "dsp-DSAP-p27-q11",
+        "exam": "2069 Chaitra",
+        "question_no": 11
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 3,
+    "topic": "Discrete Fourier Transform",
+    "question": "Compute the circular convolution of the following sequences: $[7]$\n    $$h(n) = \\{1, 2, 1, -1, 1\\} \\quad \\text{and} \\quad x(n) = \\{1, 2, 3, 1\\}$$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p02-q10",
+        "exam": "2082 Bhadra",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p19-q12",
+        "exam": "2072 Chaitra",
+        "question_no": 12
+      },
+      {
+        "id": "dsp-DSAP-p24-q11",
+        "exam": "2069 Bhadra",
+        "question_no": 11
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 3,
+    "topic": "FIR Filter Design",
+    "question": "Explain in detail about how Gibb's oscillation arise while using the rectangular window in FIR filter design. $[5]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p07-q8",
+        "exam": "2080 Baishakh",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p18-q6",
+        "exam": "2073 Shrawan",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p21-q6",
+        "exam": "2071 Shrawan",
+        "question_no": 6
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 3,
+    "topic": "Filter Structure Realization",
+    "question": "The system function of a filter is $H(z) = 1 + \\frac{13}{24}z^{-1} + \\frac{5}{8}z^{-2} + \\frac{1}{3}z^{-3}$. Draw the Direct Form and Lattice Structure implementation of the above filter. $[3+7]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p09-q6",
+        "exam": "2078 Bhadra",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p11-q6",
+        "exam": "2078 Bhadra",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p17-q5",
+        "exam": "2074 Ashwin",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p18-q5",
+        "exam": "2073 Shrawan",
+        "question_no": 5
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 3,
+    "topic": "FIR Filter Design",
+    "question": "Use the window method to design a digital low-pass FIR filter with Pass band frequency ($\\omega_p) = 0.35\\pi$, Stop band frequency $(\\omega_s) = 0.45\\pi$ with stop-band attenuation of at least $54\\text{ dB}$. $[8]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p29-q11",
+        "exam": "2080 Bhadra",
+        "question_no": 11
+      },
+      {
+        "id": "dsp-DSAP-p10-q7",
+        "exam": "2079 Baishakh",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p22-q7",
+        "exam": "2071 Chaitra",
+        "question_no": 7
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Z-Transform and System Analysis",
+    "question": "Differentiate between FIR system and IIR System. The poles of a system are located at $0.45 \\pm j1.6$ and zeros at $0.58 \\pm j2.06$. Map the poles and zeros in the z-plane and plot the magnitude response (not to the scale) of the system. $[2+2+6]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p01-q4",
+        "exam": "2083 Bhadra",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p07-q4",
+        "exam": "2080 Baishakh",
+        "question_no": 4
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Fast Fourier Transform",
+    "question": "Find the 8-point DFT using DIF-FFT of the given sequence $x[n] = \\{1, 2, 3, 4, 5\\}$. $[7]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p01-q10",
+        "exam": "2083 Bhadra",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p02-q11",
+        "exam": "2082 Bhadra",
+        "question_no": 11
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Discrete-Time Signals and Systems",
+    "question": "Compare between energy signal and power signal. Determine whether the signal $x[n] = e^{j\\left(\\frac{\\pi n}{7} + \\frac{4\\pi}{7}\\right)}$ is energy signal or power signal. $[2+2]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p02-q1",
+        "exam": "2082 Bhadra",
+        "question_no": 1
+      },
+      {
+        "id": "dsp-DSAP-p10-q1",
+        "exam": "2079 Baishakh",
+        "question_no": 1
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Z-Transform and System Analysis",
+    "question": "Define $z$-transform for a discrete time signal. Find the inverse $z$-transform for $H(z) = \\frac{z}{3z^2 - 4z + 1}$ using partial fraction method for $\\frac{1}{3} < |z| < 1$. $[1+5]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p02-q3",
+        "exam": "2082 Bhadra",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p10-q3",
+        "exam": "2079 Baishakh",
+        "question_no": 3
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Filter Structure Realization",
+    "question": "Realize the given system in Cascade Form of $2^\\text{nd}$ order section flow graph representation.\n   $H(z) = \\frac{\\{(1-0.4\\text{ }z^{-1})\\text{ }(1+0.2\\text{ }z^{-1})\\text{ }(1-0.3e^{j\\pi/6}\\text{ }z^{-1})\\text{ }(1-0.3e^{-j\\pi/6}\\text{ }z^{-1})\\}}{\\{(1-0.5e^{j\\pi/3}\\text{ }z^{-1})\\text{ }(1-0.5e^{-j\\pi/3}\\text{ }z^{-1})\\text{ }(1+0.7e^{j\\pi/4}\\text{ }z^{-1})\\text{ }(1+0.7e^{-j\\pi/4}\\text{ }z^{-1})\\}}\\text{}$. $[4]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p07-q6",
+        "exam": "2080 Baishakh",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p12-q7",
+        "exam": "2076 Chaitra",
+        "question_no": 7
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "FIR Filter Design",
+    "question": "In which case do we choose FIR filter and IIR filter? Design a linear phase FIR filter using Kaiser Window to meet the following specifications: $[2+8]$\n   $0.99 \\le |H(e^{jw})| \\le 1.01 \\quad \\text{for } 0 \\le w \\le 0.016\\pi$\n   $|H(e^{jw})| \\le 0.01 \\quad \\text{for } 0.08\\pi \\le w \\le 2\\pi$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p07-q7",
+        "exam": "2080 Baishakh",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p13-q9",
+        "exam": "2076 Ashwin",
+        "question_no": 9
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Filter Structure Realization",
+    "question": "Given a 3-stage lattice filter for all zero polynomial with coefficients $K_1 = 1/4$, $K_2 = 1/2$ and $K_3 = 1/3$. Obtain the system function and FIR filter coefficients of this filter. $[6]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p08-q6",
+        "exam": "2079 Bhadra",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p21-q4",
+        "exam": "2071 Shrawan",
+        "question_no": 4
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Discrete-Time Signals and Systems",
+    "question": "Determine whether the following system are: $[5]$\n   a) $y[n] = x[-n]$ is time-invariant or not.\n   b) $y[n] = x[n^2]$ is linear or not.",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p12-q2",
+        "exam": "2076 Chaitra",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p16-q2",
+        "exam": "2074 Chaitra",
+        "question_no": 2
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Z-Transform and System Analysis",
+    "question": "Describe stability and causality characteristics of LTI system in terms of Impulse Response and ROC of its transfer function with suitable examples. $[4+3]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p13-q4",
+        "exam": "2076 Ashwin",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p19-q4",
+        "exam": "2072 Chaitra",
+        "question_no": 4
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Z-Transform and System Analysis",
+    "question": "List out the properties of Region of convergence and locate the ROC of the following signal\n$$x[n] = (0.1)^n u[n] + (0.3)^n u[-n-1]$$ $[4+6]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p14-q6",
+        "exam": "2075 Chaitra",
+        "question_no": 6
+      },
+      {
+        "id": "dsp-DSAP-p15-q3",
+        "exam": "2075 Ashwin",
+        "question_no": 3
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "IIR Filter Design",
+    "question": "Using bilinear transformation, design a digital filter using Butterworth approximation which satisfies the following conditions\n$0.8 \\le |He^{jW}| \\le 1$ for $0 \\le W \\le 0.2\\Pi$\n$|He^{jW}| \\le 0.2$ for $0.6\\Pi \\le W \\le \\Pi$ $[10]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p14-q7",
+        "exam": "2075 Chaitra",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p23-q10",
+        "exam": "2070 Chaitra",
+        "question_no": 10
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Z-Transform and System Analysis",
+    "question": "The poles of a system are located at: $0.45-0.77i$ and $-2 \\pm 0.3i$. Map the poles and zero in the z-plane and plot the magnitude response of the system. $[2+8]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p16-q4",
+        "exam": "2074 Chaitra",
+        "question_no": 4
+      },
+      {
+        "id": "dsp-DSAP-p22-q4",
+        "exam": "2071 Chaitra",
+        "question_no": 4
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Discrete-Time Signals and Systems",
+    "question": "Explain the process of calculating fourier series coefficients. [3]",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p18-q1",
+        "exam": "2073 Shrawan",
+        "question_no": 1
+      },
+      {
+        "id": "dsp-DSAP-p19-q1",
+        "exam": "2072 Chaitra",
+        "question_no": 1
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "FIR Filter Design",
+    "question": "Explain about Remaz exchange algorithm with suitable derivation and flow chart. [9]",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p18-q7",
+        "exam": "2073 Shrawan",
+        "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p21-q7",
+        "exam": "2071 Shrawan",
+        "question_no": 7
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Z-Transform and System Analysis",
+    "question": "State the properties of region of convergence (ROC). Drive the convolution property of Z-transform. $[3+3]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p20-q3",
+        "exam": "2072 Kartik",
+        "question_no": 3
+      },
+      {
+        "id": "dsp-DSAP-p27-q3",
+        "exam": "2069 Chaitra",
+        "question_no": 3
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Z-Transform and System Analysis",
+    "question": "Plot Magnitude Response (not to the scale) of the system described by difference equation.\n   $y[n] - 0.5y[n-1] + 0.3y[n-2] = x[n] + 0.7x[n-1]$ $[6]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p20-q5",
+        "exam": "2072 Kartik",
+        "question_no": 5
+      },
+      {
+        "id": "dsp-DSAP-p23-q5",
+        "exam": "2070 Chaitra",
+        "question_no": 5
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Discrete-Time Signals and Systems",
+    "question": "Find the even and odd part of signal $x[n]$,\n$$x[n] = \\begin{cases} 1 & \\text{for } -4 \\le n \\le 0 \\\\ 2 & \\text{for } 1 \\le n \\le 4 \\end{cases}$$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p22-q1",
+        "exam": "2071 Chaitra",
+        "question_no": 1
+      },
+      {
+        "id": "dsp-DSAP-p26-q1",
+        "exam": "2070 Ashad",
+        "question_no": 1
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Discrete Fourier Transform",
+    "question": "Why do we need Discrete Fourier Transform (DFT) although we have Discrete-time Fourier Transform (DTFT)? Find circular convolution between $x[n] = \\{1, 2\\}$ and $y[n] = u[n] - u[n-4]$.",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p22-q10",
+        "exam": "2071 Chaitra",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p26-q11",
+        "exam": "2070 Ashad",
+        "question_no": 11
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Fast Fourier Transform",
+    "question": "How fast is FFT? Draw the butterfly diagram and compute the value of $X(7)$ using 8 pt DIT-FFT for the following sequences:  \n$x(n) = \\{1, 0, 0, 0, 0, 0, 0, 0\\}$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p22-q11",
+        "exam": "2071 Chaitra",
+        "question_no": 11
+      },
+      {
+        "id": "dsp-DSAP-p26-q12",
+        "exam": "2070 Ashad",
+        "question_no": 12
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "FIR Filter Design",
+    "question": "Use Hanning window method to design a digital low-pass FIR filter with pass-band edge frequency ($w_p$) = $0.25\\pi$, stop-band edge frequency ($w_s$) = $0.35\\pi$ where main lobe width of Hanning window is $8\\pi/M$, $M$ is the filter length. $[9]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p26-q8",
+        "exam": "2070 Ashad",
+        "question_no": 8
+      },
+      {
+        "id": "dsp-DSAP-p24-q10",
+        "exam": "2069 Bhadra",
+        "question_no": 10
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 2,
+    "topic": "Discrete-Time Signals and Systems",
+    "question": "Write whether or not the following sequences are periodic and write the period. [4]\n   \n   a) $x[n] = \\cos\\left(\\frac{5\\pi}{3}n\\right)$\n   \n   b) $x[n] = \\sin\\left(\\frac{\\pi n}{\\sqrt{2}} + \\frac{\\pi}{8}\\right)$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p28-q2",
+        "exam": "2067 Mangsir",
+        "question_no": 2
+      },
+      {
+        "id": "dsp-DSAP-p30-q2",
+        "exam": "2066 Magh",
+        "question_no": 2
+      }
+    ]
+  }
+]

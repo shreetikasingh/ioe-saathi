@@ -9,6 +9,7 @@ import pandas as pd
 
 CHUNKS_FILE = Path("chunks.json")
 LABELS_FILE = Path("topic_labels.json")
+REPEATS_FILE = Path("repeats.json")
 
 # Marks are written like [5] or [2+3] or $[6+2]$; we take the last one in the question
 MARKS = re.compile(r"\[\s*(\d+(?:\s*\+\s*\d+)*)\s*\]")
@@ -66,6 +67,14 @@ def topic_summary(df):
     return pd.DataFrame(summary).sort_values("Questions", ascending=False)
 
 
+def load_repeats(subject):
+    """Repeated questions found by repeats.py (most repeated first)."""
+    if not REPEATS_FILE.exists():
+        return []
+    repeats = json.loads(REPEATS_FILE.read_text(encoding="utf-8"))
+    return [r for r in repeats if r["subject"] == subject]
+
+
 # ---------- The Streamlit page ----------
 def render_patterns(st, subject):
     import altair as alt
@@ -108,6 +117,25 @@ def render_patterns(st, subject):
 
     # The same data as a table
     st.dataframe(summary, hide_index=True)
+
+    # Most repeated questions
+    repeats = load_repeats(subject)
+    if repeats:
+        st.markdown("### 🔥 Most repeated questions")
+        st.caption(
+            f"{len(repeats)} questions came in more than one exam: the same question, or the "
+            "same type with different numbers. Found by comparing the meaning of every "
+            "question with every other one."
+        )
+        for r in repeats[:10]:
+            with st.container(border=True):
+                st.markdown(
+                    f'<span class="badge badge-hot">🔁 Asked {r["times_asked"]}×</span>'
+                    f'<span class="badge badge-subj">{r["topic"]}</span>',
+                    unsafe_allow_html=True,
+                )
+                st.markdown(r["question"])
+                st.caption("Asked in: " + " · ".join(f'{a["exam"]} Q{a["question_no"]}' for a in r["asked_in"]))
 
     # Drill down into one topic
     st.markdown("### 🔎 See every past question on a topic")

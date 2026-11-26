@@ -1,5 +1,6 @@
 # app.py - IOE Saathi: a friendly, good-looking chat interface (Streamlit)
 
+import json
 import re
 import streamlit as st
 from rag import retrieve, build_prompt, generate, solve, collection
@@ -49,6 +50,7 @@ st.markdown(
 .badge-subj {background: rgba(127,127,127,0.25);}
 .badge-exam {background: #003893; color: white;}
 .badge-q {background: #DC143C; color: white;}
+.badge-hot {background: #f59e0b; color: #1a1a1a;}
 
 /* Suggestion buttons */
 div.stButton > button {
@@ -70,6 +72,20 @@ def get_stats():
     return len(metadatas), len(exams)
 
 
+@st.cache_data
+def repeat_counts():
+    """{(exam, question number): how many exams that question appeared in}"""
+    try:
+        with open("repeats.json", encoding="utf-8") as f:
+            repeats = json.load(f)
+    except FileNotFoundError:
+        return {}
+    return {
+        (a["exam"], str(a["question_no"])): r["times_asked"]
+        for r in repeats for a in r["asked_in"]
+    }
+
+
 LABEL = re.compile(r"^\[(.+?) \| (.+?) \| Q(\d+)\]\s*")
 
 
@@ -88,10 +104,12 @@ def show_sources(chunks):
             label, body = split_label(chunk)
             if label:
                 subject, exam, q_no = label
+                times = repeat_counts().get((exam, q_no))
+                hot = f'<span class="badge badge-hot">🔁 asked {times}×</span>' if times else ""
                 st.markdown(
                     f'<span class="badge badge-subj">{subject}</span>'
                     f'<span class="badge badge-exam">{exam}</span>'
-                    f'<span class="badge badge-q">Q{q_no}</span>',
+                    f'<span class="badge badge-q">Q{q_no}</span>' + hot,
                     unsafe_allow_html=True,
                 )
             st.markdown(body.replace("***", "").strip())
