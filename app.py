@@ -5,6 +5,7 @@ import re
 import streamlit as st
 from rag import retrieve, build_prompt, generate, solve, collection
 from patterns import render_patterns
+from mocktest import render_mock_test
 
 # ---------- Page setup ----------
 st.set_page_config(
@@ -170,13 +171,16 @@ st.markdown(
 # ---------- Switch between the two views ----------
 view = st.radio(
     "View",
-    ["💬 Ask Saathi", "📊 Exam Patterns"],
+    ["💬 Ask Saathi", "📊 Exam Patterns", "📝 Mock Test"],
     horizontal=True,
     label_visibility="collapsed",
 )
 if view == "📊 Exam Patterns":
     render_patterns(st, "dsp")
     st.stop()  # don't draw the chat below
+if view == "📝 Mock Test":
+    render_mock_test(st, "dsp")
+    st.stop()
 
 # ---------- Solve mode switch ----------
 solve_mode = st.toggle(
