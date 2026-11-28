@@ -52,6 +52,7 @@ def chunk_document(doc_folder):
     subject = doc_folder.parent.name  # e.g. "dsp"
     chunks = []
     last_exam = "Unknown exam"
+    seen = set()  # (exam, question number) pairs we already have
 
     for page_file in sorted(doc_folder.glob("page_*.md")):
         text = page_file.read_text(encoding="utf-8")
@@ -60,12 +61,23 @@ def chunk_document(doc_folder):
 
         lines = text.splitlines()
         page_number = int(page_file.stem.split("_")[1])
+        questions = split_into_questions(lines)
+        if not questions:
+            continue
 
-        # If a page has no exam header, it's probably a continuation of the previous paper
-        exam = find_exam(lines) or last_exam
+        # A page that doesn't start at Q1 continues the previous paper. Any "Exam:" line on
+        # it was guessed by the AI (it once invented "2080 Bhadra" here), so we ignore it.
+        if questions[0][0] > 1 and last_exam != "Unknown exam":
+            exam = last_exam
+        else:
+            exam = find_exam(lines) or last_exam
         last_exam = exam
 
-        for q_number, q_text in split_into_questions(lines):
+        for q_number, q_text in questions:
+            # The same paper scanned twice in the PDF (2078 Bhadra): keep only one copy
+            if (exam, q_number) in seen:
+                continue
+            seen.add((exam, q_number))
             chunks.append({
                 "id": f"{subject}-{doc_folder.name}-p{page_number:02d}-q{q_number}",
                 "subject": subject,
