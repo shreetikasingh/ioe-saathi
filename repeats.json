@@ -41,11 +41,6 @@
         "question_no": 2
       },
       {
-        "id": "dsp-DSAP-p11-q2",
-        "exam": "2078 Bhadra",
-        "question_no": 2
-      },
-      {
         "id": "dsp-DSAP-p12-q3",
         "exam": "2076 Chaitra",
         "question_no": 3
@@ -192,11 +187,6 @@
         "question_no": 8
       },
       {
-        "id": "dsp-DSAP-p11-q8",
-        "exam": "2078 Bhadra",
-        "question_no": 8
-      },
-      {
         "id": "dsp-DSAP-p12-q9",
         "exam": "2076 Chaitra",
         "question_no": 9
@@ -270,11 +260,6 @@
         "question_no": 5
       },
       {
-        "id": "dsp-DSAP-p11-q5",
-        "exam": "2078 Bhadra",
-        "question_no": 5
-      },
-      {
         "id": "dsp-DSAP-p14-q3",
         "exam": "2075 Chaitra",
         "question_no": 3
@@ -324,11 +309,6 @@
       },
       {
         "id": "dsp-DSAP-p09-q3",
-        "exam": "2078 Bhadra",
-        "question_no": 3
-      },
-      {
-        "id": "dsp-DSAP-p11-q3",
         "exam": "2078 Bhadra",
         "question_no": 3
       },
@@ -435,11 +415,6 @@
       },
       {
         "id": "dsp-DSAP-p09-q7",
-        "exam": "2078 Bhadra",
-        "question_no": 7
-      },
-      {
-        "id": "dsp-DSAP-p11-q7",
         "exam": "2078 Bhadra",
         "question_no": 7
       },
@@ -554,6 +529,39 @@
   {
     "subject": "dsp",
     "times_asked": 5,
+    "topic": "Discrete Fourier Transform",
+    "question": "Find the circular convolution of the sequences $x_1[n] = \\{1, 1, -1, -1, 2\\}$ and $x_2[n] = \\{1, -1, -2\\}$. $[6]$",
+    "asked_in": [
+      {
+        "id": "dsp-DSAP-p03-q10",
+        "exam": "2082 Baishakh",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p06-q10",
+        "exam": "2080 Bhadra",
+        "question_no": 10
+      },
+      {
+        "id": "dsp-DSAP-p10-q11",
+        "exam": "2079 Baishakh",
+        "question_no": 11
+      },
+      {
+        "id": "dsp-DSAP-p29-q12",
+        "exam": "2067 Mangsir",
+        "question_no": 12
+      },
+      {
+        "id": "dsp-DSAP-p30-q5",
+        "exam": "2066 Magh",
+        "question_no": 5
+      }
+    ]
+  },
+  {
+    "subject": "dsp",
+    "times_asked": 5,
     "topic": "IIR Filter Design",
     "question": "Design a low pass discrete time Butterworth filter using bilinear transformation having following specifications: $[11+4]$\nPassband frequency ($W_p$) = $0.25\\pi$ radians\nStopband frequency ($W_s$) = $0.55\\pi$ radians\nPassband ripple ($\\delta_p$) = $0.11$\nStopband ripple ($\\delta_s$) = $0.21$. Consider sampling frequency of $0.5$ Hz.\n\nAlso, covert the obtained digital low pass filter to high pass filter with new pass band frequency, $W'_p = 0.45\\pi$ using digital domain transformation.",
     "asked_in": [
@@ -607,11 +615,6 @@
       },
       {
         "id": "dsp-DSAP-p09-q1",
-        "exam": "2078 Bhadra",
-        "question_no": 1
-      },
-      {
-        "id": "dsp-DSAP-p11-q1",
         "exam": "2078 Bhadra",
         "question_no": 1
       }
@@ -670,39 +673,6 @@
         "id": "dsp-DSAP-p23-q4",
         "exam": "2070 Chaitra",
         "question_no": 4
-      }
-    ]
-  },
-  {
-    "subject": "dsp",
-    "times_asked": 4,
-    "topic": "Discrete Fourier Transform",
-    "question": "Find the circular convolution of the sequences $x_1[n] = \\{1, 1, -1, -1, 2\\}$ and $x_2[n] = \\{1, -1, -2\\}$. $[6]$",
-    "asked_in": [
-      {
-        "id": "dsp-DSAP-p03-q10",
-        "exam": "2082 Baishakh",
-        "question_no": 10
-      },
-      {
-        "id": "dsp-DSAP-p06-q10",
-        "exam": "2080 Bhadra",
-        "question_no": 10
-      },
-      {
-        "id": "dsp-DSAP-p29-q12",
-        "exam": "2080 Bhadra",
-        "question_no": 12
-      },
-      {
-        "id": "dsp-DSAP-p10-q11",
-        "exam": "2079 Baishakh",
-        "question_no": 11
-      },
-      {
-        "id": "dsp-DSAP-p30-q5",
-        "exam": "2066 Magh",
-        "question_no": 5
       }
     ]
   },
@@ -792,11 +762,6 @@
         "question_no": 6
       },
       {
-        "id": "dsp-DSAP-p11-q6",
-        "exam": "2078 Bhadra",
-        "question_no": 6
-      },
-      {
         "id": "dsp-DSAP-p17-q5",
         "exam": "2074 Ashwin",
         "question_no": 5
@@ -812,13 +777,8 @@
     "subject": "dsp",
     "times_asked": 3,
     "topic": "FIR Filter Design",
-    "question": "Use the window method to design a digital low-pass FIR filter with Pass band frequency ($\\omega_p) = 0.35\\pi$, Stop band frequency $(\\omega_s) = 0.45\\pi$ with stop-band attenuation of at least $54\\text{ dB}$. $[8]$",
+    "question": "Design a low pass digital FIR filter having Pass band edge frequency $\\omega_p = 0.2\\pi$, Stop band edge frequency $\\omega_s = 0.45\\pi$ and Stop band attenuation $\\alpha_s = 51\\text{ dB}$ using any appropriate window function. $[5+3]$",
     "asked_in": [
-      {
-        "id": "dsp-DSAP-p29-q11",
-        "exam": "2080 Bhadra",
-        "question_no": 11
-      },
       {
         "id": "dsp-DSAP-p10-q7",
         "exam": "2079 Baishakh",
@@ -828,6 +788,11 @@
         "id": "dsp-DSAP-p22-q7",
         "exam": "2071 Chaitra",
         "question_no": 7
+      },
+      {
+        "id": "dsp-DSAP-p29-q11",
+        "exam": "2067 Mangsir",
+        "question_no": 11
       }
     ]
   },

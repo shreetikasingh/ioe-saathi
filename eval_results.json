@@ -26,7 +26,7 @@
     },
     {
       "question": "Why do ripples appear near the band edge when we truncate the impulse response?",
-      "passed": false
+      "passed": true
     },
     {
       "question": "What problems happen because registers have limited bits?",
@@ -58,6 +58,18 @@
     },
     {
       "question": "Linear phase FIR filter questions",
+      "passed": true
+    },
+    {
+      "question": "Z-transform ko ROC ke ho?",
+      "passed": true
+    },
+    {
+      "question": "FFT ko butterfly diagram kasari banaune?",
+      "passed": true
+    },
+    {
+      "question": "FIR र IIR फिल्टरमा के फरक छ?",
       "passed": true
     }
   ],
@@ -91,7 +103,7 @@
     },
     {
       "question": "How do I draw the butterfly diagram for FFT?",
-      "citations": 6,
+      "citations": 0,
       "invented": []
     },
     {
@@ -111,22 +123,22 @@
     },
     {
       "question": "How to realize a filter using lattice structure?",
-      "citations": 5,
+      "citations": 6,
       "invented": []
     },
     {
       "question": "Why do ripples appear near the band edge when we truncate the impulse response?",
-      "citations": 1,
+      "citations": 5,
       "invented": []
     },
     {
       "question": "What problems happen because registers have limited bits?",
-      "citations": 4,
+      "citations": 5,
       "invented": []
     }
   ],
   "summary": {
-    "retrieval_accuracy": "14/15 (93%)",
+    "retrieval_accuracy": "18/18 (100%)",
     "refusal_accuracy": "4/4 (100%)",
     "citation_honesty": "37/37 citations real (100%)"
   }

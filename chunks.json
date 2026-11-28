@@ -954,105 +954,6 @@
     "text": "[DSP | 2079 Baishakh | Q11]\n11. Find the circular convolution of the sequences $x_1[n] = \\{1, -1, -2, 3, -1\\}$ and $x_2[n] = \\{1, 2, 3\\}$. $[7]$\n\n***"
   },
   {
-    "id": "dsp-DSAP-p11-q1",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 1,
-    "text": "[DSP | 2078 Bhadra | Q1]\n1. Determine whether the signal $x[n] = \\cos\\left[\\frac{\\pi n}{2}\\right] \\cdot \\cos\\left[\\frac{\\pi n}{4}\\right]$ is periodic or non periodic and if it is periodic, find its fundamental period. $[4]$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q2",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 2,
-    "text": "[DSP | 2078 Bhadra | Q2]\n2. Find the output of LTI system having impulse response $h[n] = u[n] - u[n-4]$ and input signal $x[n] = (1/2)^n u[n]$. $[5]$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q3",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 3,
-    "text": "[DSP | 2078 Bhadra | Q3]\n3. Define ROC. Find inverse z-transform of $X(z) = \\frac{(z^3 + z^2 + 1.5z + 0.5)}{(z^3 + 1.5z^2 + 0.5z)}$, $\\text{ROC}: |z| < \\frac{1}{2}$. $[1+5]$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q4",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 4,
-    "text": "[DSP | 2078 Bhadra | Q4]\n4. Determine the zero-input response for a second order system given by: $[4]$\n$$y[n] - 3y[n-1] - 4y[n-2] = x[n]$$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q5",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 5,
-    "text": "[DSP | 2078 Bhadra | Q5]\n5. Plot the pole-zero in z-plane and draw magnitude response (not to the scale) of the system described by difference equation. $[2+4]$\n$$y[n] - 0.4 \\ y[n-1] +0.25 \\ y[n-2] = x[n] - 0.4x[n-1]$$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q6",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 6,
-    "text": "[DSP | 2078 Bhadra | Q6]\n6. The system function of a filter is $H(z) = 1 + \\frac{13}{24}z^{-1} + \\frac{5}{8}z^{-2} + \\frac{1}{3}z^{-3}$. Draw the Direct Form and Lattice Structure implementation of the above filter. $[3+7]$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q7",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 7,
-    "text": "[DSP | 2078 Bhadra | Q7]\n7. Design a linear phase FIR filter using KAISER window to meet the following specifications: $[8]$\n$$\\begin{cases}\n|H(e^{jw})| \\le 0.01; & 0 \\le w \\le 0.25\\pi \\\\\n0.95 \\le |H(e^{jw})| \\le 1.05; & 0.35\\pi \\le w \\le 0.6\\pi \\\\\n|H(e^{jw})| \\le 0.01; & 0.65\\pi \\le w \\le \\pi\n\\end{cases}$$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q8",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 8,
-    "text": "[DSP | 2078 Bhadra | Q8]\n8. What is optimum filter? Show mathematical expression of Remez exchange algorithm for FIR filter design. $[1+6]$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q9",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 9,
-    "text": "[DSP | 2078 Bhadra | Q9]\n9. Design a LPF Butterworth filter using Impulse Invariance Method (IIM) method with passband and stopband frequencies $200\\text{Hz}$ and $500\\text{Hz}$ respectively. The passband and stopband attenuations are $5\\text{dB}$ and $12\\text{dB}$ respectively. The sampling frequency is $5000\\text{Hz}$. What is pre-warping and why it is necessary? Explain. $[12+3]$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q10",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 10,
-    "text": "[DSP | 2078 Bhadra | Q10]\n10. Differentiate between DFT and DTFT. Find the circular convolution of $x_1[n] = \\{2, 1, 2, 1\\}$ and $x_2[n] = \\{1, 2, 3, 4\\}$ $[2+6]$"
-  },
-  {
-    "id": "dsp-DSAP-p11-q11",
-    "subject": "dsp",
-    "source": "DSAP.pdf",
-    "page": 11,
-    "exam": "2078 Bhadra",
-    "question_no": 11,
-    "text": "[DSP | 2078 Bhadra | Q11]\n11. Find the $8-\\text{point}$ DFT of $x[n] = u[n] - u[n-4]$ using FFT DIT algorithm. $[7]$"
-  },
-  {
     "id": "dsp-DSAP-p12-q1",
     "subject": "dsp",
     "source": "DSAP.pdf",
@@ -2686,45 +2587,45 @@
     "subject": "dsp",
     "source": "DSAP.pdf",
     "page": 29,
-    "exam": "2080 Bhadra",
+    "exam": "2067 Mangsir",
     "question_no": 9,
-    "text": "[DSP | 2080 Bhadra | Q9]\n9. Find the system function for digital filter using impulsive invariance technique from the analog Butterworth filter transfer function $H(s) = \\frac{1}{(s+1.3)(s-1.3e^{j\\frac{2\\pi}{3}})(s-1.3e^{-j\\frac{2\\pi}{3}})}$. $T = 1$ second, and draw the block diagram of the system function, $H(z)$, realized in terms of second order sections. $[15]$"
+    "text": "[DSP | 2067 Mangsir | Q9]\n9. Find the system function for digital filter using impulsive invariance technique from the analog Butterworth filter transfer function $H(s) = \\frac{1}{(s+1.3)(s-1.3e^{j\\frac{2\\pi}{3}})(s-1.3e^{-j\\frac{2\\pi}{3}})}$. $T = 1$ second, and draw the block diagram of the system function, $H(z)$, realized in terms of second order sections. $[15]$"
   },
   {
     "id": "dsp-DSAP-p29-q10",
     "subject": "dsp",
     "source": "DSAP.pdf",
     "page": 29,
-    "exam": "2080 Bhadra",
+    "exam": "2067 Mangsir",
     "question_no": 10,
-    "text": "[DSP | 2080 Bhadra | Q10]\n10. Show that the filter with impulse response $h[n]$, $0 \\le n \\le N-1$, where $h[n] = h[N-1-n]$, is a linear phase filter. $[6]$"
+    "text": "[DSP | 2067 Mangsir | Q10]\n10. Show that the filter with impulse response $h[n]$, $0 \\le n \\le N-1$, where $h[n] = h[N-1-n]$, is a linear phase filter. $[6]$"
   },
   {
     "id": "dsp-DSAP-p29-q11",
     "subject": "dsp",
     "source": "DSAP.pdf",
     "page": 29,
-    "exam": "2080 Bhadra",
+    "exam": "2067 Mangsir",
     "question_no": 11,
-    "text": "[DSP | 2080 Bhadra | Q11]\n11. Use the window method to design a digital low-pass FIR filter with Pass band frequency ($\\omega_p) = 0.35\\pi$, Stop band frequency $(\\omega_s) = 0.45\\pi$ with stop-band attenuation of at least $54\\text{ dB}$. $[8]$"
+    "text": "[DSP | 2067 Mangsir | Q11]\n11. Use the window method to design a digital low-pass FIR filter with Pass band frequency ($\\omega_p) = 0.35\\pi$, Stop band frequency $(\\omega_s) = 0.45\\pi$ with stop-band attenuation of at least $54\\text{ dB}$. $[8]$"
   },
   {
     "id": "dsp-DSAP-p29-q12",
     "subject": "dsp",
     "source": "DSAP.pdf",
     "page": 29,
-    "exam": "2080 Bhadra",
+    "exam": "2067 Mangsir",
     "question_no": 12,
-    "text": "[DSP | 2080 Bhadra | Q12]\n12. Perform circular convolution of the sequences $x_1[n] = [1,2,1]$, $0 \\le n \\le 2$ and $x_2[n] = [1,2,0,1]$, $0 \\le n \\le 3$. $[5]$"
+    "text": "[DSP | 2067 Mangsir | Q12]\n12. Perform circular convolution of the sequences $x_1[n] = [1,2,1]$, $0 \\le n \\le 2$ and $x_2[n] = [1,2,0,1]$, $0 \\le n \\le 3$. $[5]$"
   },
   {
     "id": "dsp-DSAP-p29-q13",
     "subject": "dsp",
     "source": "DSAP.pdf",
     "page": 29,
-    "exam": "2080 Bhadra",
+    "exam": "2067 Mangsir",
     "question_no": 13,
-    "text": "[DSP | 2080 Bhadra | Q13]\n13. The duality property of Discrete Fourier Transform (DFT) is, if $x[n] \\xrightarrow{\\text{DFT}} X[k]$ then $X[n] \\xrightarrow{\\text{DFT}} nx[(-k)]_N$. For input sequence $x[n]$ an algorithm can compute DFT using the formula $X[k] = \\sum_{n=0}^{N-1} x[n]e^{-j\\frac{2\\pi}{N}kn}$. How can this same formula be used to find inverse discrete Fourier transform (IDFT) of input sequence as $X[k]$ with output sequence as $x[n]$ (use duality property)? $[8]$\n\n***"
+    "text": "[DSP | 2067 Mangsir | Q13]\n13. The duality property of Discrete Fourier Transform (DFT) is, if $x[n] \\xrightarrow{\\text{DFT}} X[k]$ then $X[n] \\xrightarrow{\\text{DFT}} nx[(-k)]_N$. For input sequence $x[n]$ an algorithm can compute DFT using the formula $X[k] = \\sum_{n=0}^{N-1} x[n]e^{-j\\frac{2\\pi}{N}kn}$. How can this same formula be used to find inverse discrete Fourier transform (IDFT) of input sequence as $X[k]$ with output sequence as $x[n]$ (use duality property)? $[8]$\n\n***"
   },
   {
     "id": "dsp-DSAP-p30-q1",
